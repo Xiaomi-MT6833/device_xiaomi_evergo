@@ -81,6 +81,14 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-impl.recovery
 
+# HIDL
+PRODUCT_PACKAGES += \
+    android.hidl.allocator@1.0 \
+    android.hidl.base@1.0 \
+    android.hidl.manager@1.0 \
+    libhwbinder.vendor \
+    libhidltransport.vendor
+
 # IR
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-service \
