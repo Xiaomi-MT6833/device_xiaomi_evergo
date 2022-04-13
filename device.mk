@@ -18,7 +18,6 @@ $(call inherit-product, vendor/xiaomi/evergo/evergo-vendor.mk)
 
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
-PRODUCT_BUILD_SUPER_PARTITION := false
 
 # API
 PRODUCT_SHIPPING_API_LEVEL := 30
