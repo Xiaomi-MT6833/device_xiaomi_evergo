@@ -329,6 +329,7 @@ PRODUCT_PACKAGES += \
 # Runtime Resource Overlays
 PRODUCT_PACKAGES += \
     FrameworksResOverlayEvergo \
+    TetheringResOverlayEvergo \
     WifiResOverlayEvergo
 
 # Screen Resolution
