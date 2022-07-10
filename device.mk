@@ -297,7 +297,6 @@ PRODUCT_PACKAGES += \
     init.modem.rc \
     init.mt6833.usb.rc \
     init.project.rc \
-    init.aee.rc \
     init.ago.rc \
     meta_init.connectivity.rc \
     init.sensor_2_0.rc \
