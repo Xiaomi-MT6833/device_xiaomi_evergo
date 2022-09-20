@@ -32,8 +32,7 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 
 # Android Verified Boot
 BOARD_AVB_ENABLE := true
-BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
-BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 2
+BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := evergo
