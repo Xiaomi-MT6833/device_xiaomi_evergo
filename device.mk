@@ -44,6 +44,12 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
+# Fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd \
+    android.hardware.fastboot@1.1-impl-mock \
+    android.hardware.fastboot@1.1-impl-mock.recovery
+
 # Screen Resolution
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
