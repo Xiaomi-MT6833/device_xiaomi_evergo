@@ -54,6 +54,39 @@ PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
     android.hardware.fastboot@1.1-impl-mock.recovery
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.insmod.sh \
+
+PRODUCT_PACKAGES += \
+    fstab.emmc \
+    fstab.enableswap \
+    fstab.mt6833 \
+    factory_init.rc \
+    init_connectivity.rc \
+    factory_init.project.rc \
+    factory_init.connectivity.rc \
+    meta_init.project.rc \
+    multi_init.rc \
+    factory_init.connectivity.common.rc \
+    meta_init.rc \
+    init.connectivity.common.rc \
+    init.modem.rc \
+    init.mt6833.usb.rc \
+    init.project.rc \
+    init.aee.rc \
+    init.ago.rc \
+    meta_init.connectivity.rc \
+    init.sensor_2_0.rc \
+    meta_init.modem.rc \
+    init.connectivity.rc \
+    meta_init.connectivity.common.rc \
+    init.mt6833.rc
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/fstab.emmc:$(TARGET_VENDOR_RAMDISK_OUT)/first_stage_ramdisk/fstab.emmc \
+    $(LOCAL_PATH)/rootdir/etc/fstab.mt6833:$(TARGET_VENDOR_RAMDISK_OUT)/first_stage_ramdisk/fstab.mt6833
+
 # Screen Resolution
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
