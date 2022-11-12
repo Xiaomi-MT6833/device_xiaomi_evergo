@@ -1421,10 +1421,6 @@ vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib64/hw/gatekeeper.beanpod.so
 vendor/lib64/hw/gatekeeper.default.so
 
-# Google
--vendor/app/GoogleNetworkStackResOverlay/GoogleNetworkStackResOverlay.apk
--vendor/app/GoogleTetheringResOverlay/GoogleTetheringResOverlay.apk
-
 # Graphics
 vendor/lib/egl/egl.cfg
 vendor/lib/egl/libGLES_mali.so
@@ -1996,11 +1992,6 @@ vendor/lib64/vendor.xiaomi.hardware.vsimapp@1.0.so
 
 # Misc
 system_ext/apex/com.android.vndk.v30.apex
--system_ext/app/FM/FM.apk
-system_ext/app/FM/lib/arm64/libfmjni.so
-system_ext/app/FM/lib/arm64/libmp3lame.so
-system_ext/app/TeeService/lib/arm64/libTeeServiceJni.so
--system_ext/app/TeeService/TeeService.apk
 system_ext/bin/aee
 system_ext/bin/aeedb
 system_ext/bin/aeedb_v2
@@ -2215,23 +2206,6 @@ system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.2.so
 system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
 system_ext/lib64/vendor.mediatek.hardware.nwk_opt@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
--system_ext/priv-app/AutoBootController/AutoBootController.apk
--system_ext/priv-app/DuraSpeed/DuraSpeed.apk
--system_ext/priv-app/EmergencyInfo/EmergencyInfo.apk
--system_ext/priv-app/GoogleFeedback/GoogleFeedback.apk
--system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk
--system_ext/priv-app/MiuiSystemUI/MiuiSystemUI.apk
--system_ext/priv-app/MtkCarrierConfig/MtkCarrierConfig.apk
--system_ext/priv-app/MtkWallpaperPicker/MtkWallpaperPicker.apk
--system_ext/priv-app/Omacp/Omacp.apk
-system_ext/priv-app/Settings/lib/arm64/libjpgt.so
-system_ext/priv-app/Settings/lib/arm64/liblept.so
-system_ext/priv-app/Settings/lib/arm64/libpngt.so
-system_ext/priv-app/Settings/lib/arm64/libtess.so
--system_ext/priv-app/Settings/Settings.apk
--system_ext/priv-app/SetupWizard/SetupWizard.apk
--system_ext/priv-app/StorageManager/StorageManager.apk
--system_ext/priv-app/WallpaperCropper/WallpaperCropper.apk
 -vendor/app/InProcessTetheringResOverlay/InProcessTetheringResOverlay.apk
 -vendor/app/MipayService/MipayService.apk
 -vendor/app/NetworkStackInProcessResOverlay/NetworkStackInProcessResOverlay.apk
