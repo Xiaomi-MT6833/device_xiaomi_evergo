@@ -114,6 +114,9 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # Vendor Security Patch Level
 VENDOR_SECURITY_PATCH := 2021-08-01
 
+# Vintf
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
+
 # VNDK
 BOARD_VNDK_VERSION := current
 
