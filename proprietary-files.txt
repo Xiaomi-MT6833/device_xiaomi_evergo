@@ -878,11 +878,8 @@ vendor/lib/liboemcrypto.so
 vendor/lib64/liboemcrypto.so
 
 # DRM-Hardware
-vendor/bin/hw/android.hardware.drm@1.4-service.clearkey
 vendor/bin/hw/android.hardware.drm@1.4-service.widevine
-vendor/etc/init/android.hardware.drm@1.4-service.clearkey.rc
 vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc
--vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml
 vendor/lib/android.hardware.drm@1.0.so
 vendor/lib/android.hardware.drm@1.1.so
