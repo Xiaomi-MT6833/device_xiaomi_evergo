@@ -3624,10 +3624,6 @@ vendor/lib/android.frameworks.sensorservice@1.0.so
 vendor/lib/android.hardware.boot@1.0.so
 vendor/lib/android.hardware.boot@1.1.so
 vendor/lib/android.hardware.boot@1.2.so
-vendor/lib/android.hardware.cas.native@1.0.so
-vendor/lib/android.hardware.cas@1.0.so
-vendor/lib/android.hardware.cas@1.1.so
-vendor/lib/android.hardware.cas@1.2.so
 vendor/lib/android.hardware.ir@1.0.so
 vendor/lib/android.hardware.media.c2@1.0.so
 vendor/lib/android.hardware.media.c2@1.1.so
