@@ -129,6 +129,9 @@ TARGET_COPY_OUT_PRODUCT := product
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
+# SEPolicy
+include device/mediatek/sepolicy_vndr/SEPolicy.mk
+
 # Vendor Security Patch Level
 VENDOR_SECURITY_PATCH := 2021-08-01
 
