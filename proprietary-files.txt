@@ -867,7 +867,6 @@ vendor/etc/camera/vidhance_calibration
 
 # Charger
 bin/kpoc_charger
-boot/ramdisk/system/etc/init/kpoc_charger.rc
 etc/init/kpoc_charger.rc
 
 # Consumerir
