@@ -1881,6 +1881,13 @@ vendor/lib64/libvibrator.so
 vendor/lib64/vendor.hardware.vibratorfeature.IVibratorExt-V1-ndk_platform.so
 vendor/lib64/vendor.xiaomi.hardware.vibratorfeature@1.0.so
 
+# Vintf (MEDIATEK)
+-vendor/etc/vintf/manifest/gnss-default.xml
+-vendor/etc/vintf/manifest/gnss@2.1-service.xml
+-vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml
+-vendor/etc/vintf/manifest/manifest_hwcomposer.xml
+-vendor/etc/vintf/manifest/power-default.xml
+
 # WiFi
 bin/iwpriv
 vendor/bin/hw/android.hardware.wifi@1.0-service-lazy
