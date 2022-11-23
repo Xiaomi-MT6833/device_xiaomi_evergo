@@ -63,7 +63,19 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@6.0.vendor \
     android.hardware.audio@6.0-util.vendor \
     android.hardware.audio@7.0-util.vendor \
-    android.hardware.audio@7.0.vendor
+    android.hardware.audio@7.0.vendor \
+    audio.primary.default \
+    audio.r_submix.default \
+    audio.usb.default \
+    audio_policy.stub \
+    libaudiofoundation.vendor \
+    libavservices_minijail.vendor \
+    libavservices_minijail_vendor \
+    libbluetooth_audio_session.vendor \
+    libtinycompress \
+    libaudiofoundation.vendor \
+    libaudiopreprocessing.vendor \
+    tinymix
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio,$(TARGET_COPY_OUT_VENDOR)/etc)
