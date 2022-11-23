@@ -1418,7 +1418,6 @@ vendor/lib/libMtkSpeechEnh.so
 vendor/lib/libmtkspparser.so
 vendor/lib/libmtksysutils.so
 vendor/lib/libmtk_bsg.so
-vendor/lib/libmtk_drvb.so
 vendor/lib/mt6833/libmtk_drvb.so
 vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so
 vendor/lib/vendor.mediatek.hardware.charge@1.0.so
@@ -1550,7 +1549,6 @@ vendor/lib64/libmtksysutils.so
 vendor/lib64/libmtktinyxml.so
 vendor/lib64/libmtkutils.so
 vendor/lib64/libmtk_bsg.so
-vendor/lib64/libmtk_drvb.so
 vendor/lib64/mt6833/libmtk_drvb.so
 vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
 vendor/lib64/vendor.mediatek.hardware.aee@1.0.so
@@ -3199,7 +3197,6 @@ vendor/lib/libaal_key.so
 vendor/lib/libaal_mtk.so
 vendor/lib/libadpcmdec_mtk.so
 vendor/lib/libaedv.so
-vendor/lib/libaiselector.so
 vendor/lib/libalacdec_mtk.so
 vendor/lib/libapmonitor_vendor.so
 vendor/lib/libappgamepq.so
@@ -3305,9 +3302,7 @@ vendor/lib/libpkm.so
 vendor/lib/libpowerhal.so
 vendor/lib/libpowerhalwrap_vendor.so
 vendor/lib/libpower_timer.so
-vendor/lib/libpqframework.so
 vendor/lib/libpq_cust_base.so
-vendor/lib/libpq_prot.so
 vendor/lib/libprotobuf-cpp-full-3.9.1.so
 vendor/lib/libprotobuf-cpp-lite-3.9.1.so
 vendor/lib/librcs_interface.so
@@ -3463,7 +3458,6 @@ vendor/lib64/libaiawb_moon_model.so
 vendor/lib64/libaiawb_p1ggm.so
 vendor/lib64/libaiawb_sun.so
 vendor/lib64/libaiawb_sun_model.so
-vendor/lib64/libaiselector.so
 vendor/lib64/libalacdec_mtk.so
 vendor/lib64/libalCFR.so
 vendor/lib64/libalhLDC.so
@@ -3605,10 +3599,8 @@ vendor/lib64/libpkm.so
 vendor/lib64/libpowerhal.so
 vendor/lib64/libpowerhalwrap_vendor.so
 vendor/lib64/libpower_timer.so
-vendor/lib64/libpqframework.so
 vendor/lib64/libpqparamparser.so
 vendor/lib64/libpq_cust_base.so
-vendor/lib64/libpq_prot.so
 vendor/lib64/libprotobuf-cpp-full-3.9.1.so
 vendor/lib64/libprotobuf-cpp-lite-3.9.1.so
 vendor/lib64/libratconfig.so
