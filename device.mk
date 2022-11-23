@@ -333,6 +333,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Soundtrigger
+PRODUCT_PACKAGES += \
+    android.hardware.soundtrigger@2.3-impl
+
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0.vendor \
