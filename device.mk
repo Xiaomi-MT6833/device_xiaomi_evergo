@@ -137,6 +137,19 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-service \
     android.hardware.ir@1.0-impl
 
+# Keymaster
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@3.0.vendor:64 \
+    android.hardware.keymaster@4.0.vendor:64 \
+    android.hardware.keymaster@4.1.vendor:64 \
+    libkeymaster4.vendor:64 \
+    libkeymaster41.vendor:64 \
+    libkeymaster4_1support.vendor:64 \
+    libkeymaster4support.vendor:64 \
+    libkeymaster_messages.vendor:64 \
+    libkeymaster_portable.vendor:64 \
+    libpuresoftkeymasterdevice.vendor:64
+
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
