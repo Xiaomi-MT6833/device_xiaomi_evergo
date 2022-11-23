@@ -107,6 +107,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.cas@1.2-service-lazy
 
+# Display
+PRODUCT_PACKAGES += \
+    libdrm.vendor \
+    android.hardware.graphics.composer@2.1.vendor \
+    android.hardware.graphics.composer@2.1-resources.vendor \
+    android.hardware.memtrack@1.0-service \
+    android.hardware.memtrack@1.0-impl
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd \
