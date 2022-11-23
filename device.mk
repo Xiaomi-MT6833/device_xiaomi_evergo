@@ -49,6 +49,22 @@ PRODUCT_PACKAGES += \
     otapreopt_script
 
 # Audio
+PRODUCT_PACKAGES += \
+    android.hardware.audio.common-util.vendor \
+    android.hardware.audio.common@5.0.vendor \
+    android.hardware.audio.common@6.0-util.vendor \
+    android.hardware.audio.common@6.0.vendor \
+    android.hardware.audio.common@7.0-util.vendor \
+    android.hardware.audio.common@7.0.vendor \
+    android.hardware.audio.effect@6.0-util.vendor \
+    android.hardware.audio.effect@6.0.vendor \
+    android.hardware.audio.effect@7.0-util.vendor \
+    android.hardware.audio.effect@7.0.vendor \
+    android.hardware.audio@6.0.vendor \
+    android.hardware.audio@6.0-util.vendor \
+    android.hardware.audio@7.0-util.vendor \
+    android.hardware.audio@7.0.vendor
+
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio,$(TARGET_COPY_OUT_VENDOR)/etc)
 
