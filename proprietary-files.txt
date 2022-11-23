@@ -3247,7 +3247,6 @@ vendor/lib/android.frameworks.sensorservice@1.0.so
 vendor/lib/android.hardware.media.c2@1.0.so
 vendor/lib/android.hardware.media.c2@1.1.so
 vendor/lib/android.hardware.media.c2@1.2.so
-vendor/lib/android.hidl.allocator@1.0.so
 vendor/lib/android.hidl.memory.block@1.0.so
 vendor/lib/arm.graphics-V1-ndk_platform.so
 vendor/lib/audioclient-types-aidl-cpp.so
@@ -3330,8 +3329,6 @@ vendor/lib/libh264enc_sa.ca7.so
 vendor/lib/libhdrvideo.so
 vendor/lib/libHEVCdec_sa.ca7.android.so
 vendor/lib/libhevce_sb.ca7.android.so
-vendor/lib/libhidltransport.so
-vendor/lib/libhwbinder.so
 vendor/lib/libicd_decoder.so
 vendor/lib/libimgsensorca.so
 vendor/lib/libimsg_log.so
@@ -3619,8 +3616,6 @@ vendor/lib64/libheichal.so
 vendor/lib64/libhevce_sb.ca7.android.so
 vendor/lib64/libhfmanager.so
 vendor/lib64/libhfmanagerwrapper.so
-vendor/lib64/libhidltransport.so
-vendor/lib64/libhwbinder.so
 vendor/lib64/libhwm.so
 vendor/lib64/libicd_decoder.so
 vendor/lib64/libifcutils_mtk.so
