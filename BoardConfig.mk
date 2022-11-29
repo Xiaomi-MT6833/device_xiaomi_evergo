@@ -143,6 +143,9 @@ ENABLE_VENDOR_RIL_SERVICE := true
 SELINUX_IGNORE_NEVERALLOWS := true
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
 
+# Vendor
+BOARD_VENDOR := xiaomi
+
 # Vendor Security Patch
 VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
