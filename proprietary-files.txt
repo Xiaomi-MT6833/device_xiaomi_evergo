@@ -1665,6 +1665,12 @@ vendor/lib64/vendor.xiaomi.hardware.vibratorfeature@1.0.so
 -vendor/etc/vintf/manifest/manifest_hwcomposer.xml
 -vendor/etc/vintf/manifest/power-default.xml
 
+# VINTF (ODM)
+-vendor/odm/etc/vintf/manifest_dsds.xml
+-vendor/odm/etc/vintf/manifest_qsqs.xml
+-vendor/odm/etc/vintf/manifest_ss.xml
+-vendor/odm/etc/vintf/manifest_tsts.xml
+
 # WiFi
 bin/iwpriv
 vendor/bin/hw/android.hardware.wifi@1.0-service-lazy
