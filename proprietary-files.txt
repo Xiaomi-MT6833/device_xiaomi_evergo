@@ -3259,6 +3259,7 @@ vendor/lib/libpkm.so
 vendor/lib/libpowerhal.so
 vendor/lib/libpowerhalwrap_vendor.so
 vendor/lib/libpower_timer.so
+vendor/lib/libpqframework.so
 vendor/lib/libpq_cust_base.so
 vendor/lib/libprotobuf-cpp-full-3.9.1.so
 vendor/lib/libprotobuf-cpp-lite-3.9.1.so
@@ -3554,6 +3555,7 @@ vendor/lib64/libpkm.so
 vendor/lib64/libpowerhal.so
 vendor/lib64/libpowerhalwrap_vendor.so
 vendor/lib64/libpower_timer.so
+vendor/lib64/libpqframework.so
 vendor/lib64/libpqparamparser.so
 vendor/lib64/libpq_cust_base.so
 vendor/lib64/libprotobuf-cpp-full-3.9.1.so
