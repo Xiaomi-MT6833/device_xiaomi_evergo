@@ -122,11 +122,12 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
-    libdrm.vendor \
+    android.hardware.graphics.composer@2.1-service \
     android.hardware.graphics.composer@2.1.vendor \
     android.hardware.graphics.composer@2.1-resources.vendor \
     android.hardware.memtrack@1.0-service \
-    android.hardware.memtrack@1.0-impl
+    android.hardware.memtrack@1.0-impl \
+    libdrm.vendor
 
 # DRM
 PRODUCT_PACKAGES += \
