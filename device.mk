@@ -48,6 +48,7 @@ PRODUCT_PACKAGES += \
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
+    android.hardware.audio@7.0-impl \
     android.hardware.audio.common-util.vendor \
     android.hardware.audio.common@5.0.vendor \
     android.hardware.audio.common@6.0-util.vendor \
@@ -58,6 +59,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@6.0.vendor \
     android.hardware.audio.effect@7.0-util.vendor \
     android.hardware.audio.effect@7.0.vendor \
+    android.hardware.audio.effect@7.0-impl \
     android.hardware.audio@6.0.vendor \
     android.hardware.audio@6.0-util.vendor \
     android.hardware.audio@7.0-util.vendor \
