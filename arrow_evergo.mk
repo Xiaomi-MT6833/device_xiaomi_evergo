@@ -15,7 +15,7 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 $(call inherit-product, device/xiaomi/evergo/device.mk)
 
 # ArrowOS Stuff
-TARGET_BOOT_ANIMATION_RES := 720
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := evergo
