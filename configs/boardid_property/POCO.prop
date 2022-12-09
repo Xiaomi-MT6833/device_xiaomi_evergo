@@ -1,0 +1,11 @@
+#
+# Common POCO Properties
+#
+
+ro.product.bootimage.brand=POCO
+ro.product.brand=POCO
+ro.product.odm.brand=POCO
+ro.product.product.brand=POCO
+ro.product.system.brand=POCO
+ro.product.system_ext.brand=POCO
+ro.product.vendor.brand=POCO
