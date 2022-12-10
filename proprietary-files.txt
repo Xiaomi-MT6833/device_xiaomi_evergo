@@ -1289,16 +1289,16 @@ vendor/lib64/libOpenCL.so
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 -system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
-# Kernel Modules
-vendor/lib/modules/bt_drv_connac1x.ko
-vendor/lib/modules/connfem.ko
-vendor/lib/modules/fmradio_drv_mt6631_6635.ko
-vendor/lib/modules/fpsgo.ko
-vendor/lib/modules/gps_drv.ko
-vendor/lib/modules/met.ko
-vendor/lib/modules/wlan_drv_gen4m.ko
-vendor/lib/modules/wmt_chrdev_wifi.ko
-vendor/lib/modules/wmt_drv.ko
+# Kernel Modules - from Redmi/opal_global/opal:12/SP1A.210812.016/V13.0.1.0.SGLMIXM:user/release-keys
+vendor/lib/modules/bt_drv_connac1x.ko|7b0adbe34289dde8623880eb3ad7a1fdd3bb5fb9
+vendor/lib/modules/connfem.ko|68c424e431bb94781b916cc44d39844d20e96690
+vendor/lib/modules/fmradio_drv_mt6631_6635.ko|7b6d33a876c0a01c6b7db71a66a4c30a74efc0a0
+vendor/lib/modules/fpsgo.ko|f57607fab1b4b270f01d2024070be41fd46e0a49
+vendor/lib/modules/gps_drv.ko|bc9225b41e6338a85fbff649e3b0a166ba8c5271
+vendor/lib/modules/met.ko|08a206ce6ed308a697cc86ffd502fdda9a81a12d
+vendor/lib/modules/wlan_drv_gen4m.ko|0d3555aa39472c6768928caeb03e9862e6741fd7
+vendor/lib/modules/wmt_chrdev_wifi.ko|cdf52ef860f22ee8be368e16070852881ea5772a
+vendor/lib/modules/wmt_drv.ko|8d0abd2179f669d707346448714c1d86c3c8475d
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.1-service.beanpod
