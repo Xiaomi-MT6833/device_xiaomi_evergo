@@ -1794,7 +1794,6 @@ vendor/bin/vsimd
 vendor/bin/wlan_assistant
 vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
-vendor/bin/[
 vendor/etc/.tp/.ht120.mtc
 vendor/etc/102_SummerDay.png
 vendor/etc/103_Fantasy.png
