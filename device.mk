@@ -326,6 +326,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
 
+# Runtime Resource Overlays
+PRODUCT_PACKAGES += \
+    FrameworksResOverlayEvergo
+
 # Screen Resolution
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
