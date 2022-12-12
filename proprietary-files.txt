@@ -1747,11 +1747,6 @@ vendor/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.vsimapp@1.0.so
 
 # Misc
--vendor/app/InProcessTetheringResOverlay/InProcessTetheringResOverlay.apk
--vendor/app/MipayService/MipayService.apk
--vendor/app/NetworkStackInProcessResOverlay/NetworkStackInProcessResOverlay.apk
--vendor/app/NetworkStackResOverlay/NetworkStackResOverlay.apk
--vendor/app/TetheringResOverlay/TetheringResOverlay.apk
 vendor/bin/AgentTest
 vendor/bin/atcid
 vendor/bin/audiocmdservice_atci
