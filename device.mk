@@ -328,7 +328,8 @@ PRODUCT_PACKAGES += \
 
 # Runtime Resource Overlays
 PRODUCT_PACKAGES += \
-    FrameworksResOverlayEvergo
+    FrameworksResOverlayEvergo \
+    WifiResOverlayEvergo
 
 # Screen Resolution
 TARGET_SCREEN_HEIGHT := 2400
