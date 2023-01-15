@@ -119,12 +119,6 @@
          The default is false. -->
      <bool name="config_lidControlsSleep">true</bool>
 
-    <!-- Should the pinner service pin the Camera application? -->
-     <bool name="config_pinnerCameraApp">false</bool>
-
-    <!-- Should the pinner service pin the Home application? -->
-     <bool name="config_pinnerHomeApp">false</bool>
-
     <!-- Power Management: Specifies whether to decouple the auto-suspend state of the
          device from the display on/off state.
          When false, autosuspend_disable() will be called before the display is turned on
@@ -155,9 +149,6 @@
          Refer to power.h for details.
     -->
      <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
-
-    <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently in hardware. -->
-     <bool name="config_setColorTransformAccelerated">true</bool>
 
     <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
          autodetected from the Configuration. -->
@@ -413,18 +404,8 @@
 
     <!-- Default list of files pinned by the Pinner Service -->
     <string-array name="config_defaultPinnerServiceFiles">
-        <item>/data/dalvik-cache/arm64/system@framework@boot.oat</item>
-        <item>/data/dalvik-cache/arm/system@framework@boot.oat</item>
         <item>/data/dalvik-cache/arm64/system@framework@services.jar@classes.dex</item>
         <item>/data/dalvik-cache/arm/system@framework@services.jar@classes.dex</item>
-        <item>/system/framework/arm64/boot.oat</item>
-        <item>/system/framework/arm/boot.oat</item>
-        <item>/system/framework/oat/arm64/services.odex</item>
-        <item>/system/framework/oat/arm/services.odex</item>
-        <item>/system/framework/arm64/boot-framework.oat</item>
-        <item>/system/framework/arm/boot-framework.oat</item>
-        <item>/system/framework/arm64/boot-core-libart.oat</item>
-        <item>/system/framework/arm/boot-core-libart.oat</item>
         <item>/system/lib64/libRScpp.so</item>
         <item>/system/lib64/libRS.so</item>
         <item>/system/lib64/libRS_internal.so</item>
